@@ -1,13 +1,13 @@
-##include <stdio.h>
+#include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+int main() {
     int num1,num2;
     printf("nhap vao so thu nhat ");
     scanf("%d",&num1);
     printf("nhap vao so thu nhat ");
     scanf("%d",&num2);
     int i;
-    float result;
+    #float result;
     while(i!=5){
         printf("1. tong cua hai so\n");
         printf("2. hieu cua hai so\n");
